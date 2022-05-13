@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactMe</title>
+</head>
+<body>
+    <header><big><h2>Fill The Form To Register</h2></big></header>
+
+    <main>
+        <form action="/action.php">
+            userName:
+            <input type="text" placeholder="UserName or Email"/>
+            <br/>
+            <br/>
+            password:
+            <input type="password" placeholder="Enter your password"/>
+            <br/>
+            <h4>Select your class</h4>
+            <label for="1">
+                <input type="radio" value="1styear" name="class" id="1"/>1styear
+            </label>
+            <br/>
+            <label for="2">
+                <input type="radio" value="2ndyear" name="class" id="2"/>2ndyear
+            </label>
+            <br/>
+            <label for='3'>
+                <input type="radio" value="3rdyear" name="class" id="3"/>3rdyear
+            </labe>
+            <br/>
+            <label for="4">
+                <input type="radio" value="4thyear" name="class" id="4"/>4thyear
+            </label>
+            <br/>
+            <h4>Select Subjects your are interested</h4>
+            <label for="a">
+                <input type="checkbox" value="Math" name="FavSubject" id="a"/>Mathematics
+            </label>
+            <br/>
+            <label for="b">
+                <input type="checkbox"
+                value="Physics" name="FavSubject" id="b"/>Physics
+            </label>
+            <br/>
+            <label for="c">
+                <input type="checkbox" value="Chemistry" name="FavSubject" id="c"/>Chemistry
+            </label>
+            <br/>
+            <label for="d">
+                <input type="checkbox" value="Coding" name="FavSubject" id="d"/>Coding
+            </label>
+            <br/>
+
+            Select your city:
+    <select name="city">
+      <option value="Delhi">Delhi</option>
+      <option value="Banglore">Banglore</option>
+      <option value="Gurgon">Gurgon</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Pune">Pune</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Chennai">Chennai</option>
+    </select>
+
+    <br/>
+    <textarea name="feedback" id="e" placeholder="Please give your feedBack..." rows="3" cols="100"></textarea>
+
+    <br/>
+    <input type="submit" value="submit"/>
+
+        </form>
+    </main>
+
+    <footer>
+        Credits:A_R_K
+    </footer>
+</body>
+</html>
